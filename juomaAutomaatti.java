@@ -21,7 +21,7 @@ public int getTee() {
 	return Tee;
 }
 
-
+// Jos k√§yt√§t samannimist√§ muuttujaa, k√§yt√§ this avainsanaa mieluummin kuin isoja vs pieni√§ kirjaimia. Tekee koodin lukemisen helpommaksi
 public void setTee(int tee) {
 	Tee = tee;
 }
@@ -31,7 +31,7 @@ public int getKahvi() {
 	return Kahvi;
 }
 
-
+// Jos k√§yt√§t samannimist√§ muuttujaa, k√§yt√§ this avainsanaa mieluummin kuin isoja vs pieni√§ kirjaimia. Tekee koodin lukemisen helpommaksi
 public void setKahvi(int kahvi) {
 	Kahvi = kahvi;
 }
@@ -41,7 +41,7 @@ public int getKaakao() {
 	return Kaakao;
 }
 
-
+// Jos k√§yt√§t samannimist√§ muuttujaa, k√§yt√§ this avainsanaa mieluummin kuin isoja vs pieni√§ kirjaimia. Tekee koodin lukemisen helpommaksi
 public void setKaakao(int kaakao) {
 	Kaakao = kaakao;
 	
@@ -52,12 +52,12 @@ public void setKaakao(int kaakao) {
 		System.out.println("Odota hetki, Kahvisi valmistuu. ");
 		if (this.Kahvi -10 < 0) {
 			this.Kahvi = 0; 
-			System.out.println("Kahvia ei ole en‰‰ j‰ljell‰! T‰yt‰ s‰iliˆ.");
+			System.out.println("Kahvia ei ole en√§√§ j√§ljell√§! T√§yt√§ s√§ili√∂.");
 		}
 
 		else this.Kahvi -= 10;
 
-		System.out.println("Kahvia on j‰ljell‰: " + this.Kahvi + " yksikkˆ‰. Teet‰ on j‰ljell‰: " + this.Tee + " yksikkˆ‰. Kaakaota on j‰ljell‰: " + this.Kaakao + " yksikkˆ‰." +"\n");
+		System.out.println("Kahvia on j√§ljell√§: " + this.Kahvi + " yksikk√∂√§. Teet√§ on j√§ljell√§: " + this.Tee + " yksikk√∂√§. Kaakaota on j√§ljell√§: " + this.Kaakao + " yksikk√∂√§." +"\n");
 	}
 
 //Teen valmistus
@@ -66,12 +66,12 @@ public void setKaakao(int kaakao) {
 		System.out.println("Odota hetki, Teesi valmistuu. ");
 		if (this.Tee -10 < 0) {
 			this.Tee = 0; 
-			System.out.println("Teet‰ ei ole en‰‰ j‰ljell‰! T‰yt‰ s‰iliˆ.");
+			System.out.println("Teet√§ ei ole en√§√§ j√§ljell√§! T√§yt√§ s√§ili√∂.");
 		}
 
 		else this.Tee -= 10;
 
-		System.out.println("Kahvia on j‰ljell‰: " + this.Kahvi + " yksikkˆ‰. Teet‰ on j‰ljell‰: " + this.Tee + " yksikkˆ‰. Kaakaota on j‰ljell‰: " + this.Kaakao + " yksikkˆ‰." +"\n");
+		System.out.println("Kahvia on j√§ljell√§: " + this.Kahvi + " yksikk√∂√§. Teet√§ on j√§ljell√§: " + this.Tee + " yksikk√∂√§. Kaakaota on j√§ljell√§: " + this.Kaakao + " yksikk√∂√§." +"\n");
 
 	}
 
@@ -81,12 +81,12 @@ public void setKaakao(int kaakao) {
 		System.out.println("Odota hetki, Kaakaosi valmistuu. ");
 		if (this.Kaakao -10 < 0) {
 			this.Kaakao = 0; 
-			System.out.println("Kaakaota ei ole en‰‰ j‰ljell‰! T‰yt‰ s‰iliˆ.");
+			System.out.println("Kaakaota ei ole en√§√§ j√§ljell√§! T√§yt√§ s√§ili√∂.");
 		}
 
 		else this.Kaakao -= 10;
 
-		System.out.println("Kahvia on j‰ljell‰: " + this.Kahvi + " yksikkˆ‰. Teet‰ on j‰ljell‰: " + this.Tee + " yksikkˆ‰. Kaakaota on j‰ljell‰: " + this.Kaakao + " yksikkˆ‰." +"\n");
+		System.out.println("Kahvia on j√§ljell√§: " + this.Kahvi + " yksikk√∂√§. Teet√§ on j√§ljell√§: " + this.Tee + " yksikk√∂√§. Kaakaota on j√§ljell√§: " + this.Kaakao + " yksikk√∂√§." +"\n");
 	}
 
 
@@ -131,7 +131,7 @@ public void setKaakao(int kaakao) {
 			System.out.println("** ** ** ** ** ** ** ** ** **");
 			System.out.println("Haluatko jatkaa tilaamista?");
 			System.out.println("** ** ** ** ** ** ** ** ** **");
-			System.out.println("1: Kirjoita 1, mik‰li haluat jatkaa tilaamista.");
+			System.out.println("1: Kirjoita 1, mik√§li haluat jatkaa tilaamista.");
 			System.out.println("2: Kirjoita 2, jos haluat lopettaa tilaamisen.");
 			System.out.println("** ** ** ** ** ** ** ** ** ** ");
 			vastaus = lukija.next();
